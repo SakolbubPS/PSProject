@@ -115,7 +115,7 @@
                             <dx:GridViewDataTextColumn Caption="ชื่อพนักงาน" FieldName="WUName" ShowInCustomizationForm="True" VisibleIndex="1">
                                 <HeaderStyle BackColor="#3399FF" Font-Bold="False" Font-Size="X-Large" HorizontalAlign="Center" />
                                 <CellStyle Font-Size="Large">
-                                </CellStyle>
+                                </CellStyle>..
                             </dx:GridViewDataTextColumn>
                             <dx:GridViewDataTextColumn Caption="วันที่สาย" FieldName="WDate" ShowInCustomizationForm="True" VisibleIndex="4" Visible="False">
                                 <HeaderStyle BackColor="#3399FF" Font-Size="X-Large" HorizontalAlign="Center" />
