@@ -229,6 +229,26 @@ namespace Warning
 
             return CountNum;
         }
+
+        public static string CountWarningNum2(string WIDUser, string WBleams)
+        {
+
+            string LvSQL1 = "Select Count(*)As CountNum from reportwarning1" +
+           " WHERE UsreID = '" + WIDUser + "'AND Blame = '" + WBleams + "'";
+
+
+
+            DataTable DT = new DataTable();
+            DT = GsysSQL.fncGetQueryData(LvSQL1, DT);
+            int lvNumRow = DT.Rows.Count;
+
+            string CountNum = DT.Rows[0]["CountNum"].ToString();
+
+
+            return CountNum;
+        }
+
+
     }
 
     
