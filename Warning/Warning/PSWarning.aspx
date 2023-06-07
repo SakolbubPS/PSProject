@@ -154,7 +154,7 @@
                                     <dx:ASPxButton ID="ASPxButton2" runat="server" AutoPostBack="true" CommandName="Print" Font-Size="X-Large" RenderMode="Link" Text="พิมพ์" Theme="Material"    >
                                     </dx:ASPxButton>
                                     &nbsp;
-                                    <dx:ASPxButton ID="ASPxButton8" runat="server" CommandName="End" Font-Size="X-Large" ForeColor="#FF3300" RenderMode="Link" Text="ยกเลิก" Theme="Material">
+                                    <dx:ASPxButton ID="ASPxButton8" runat="server" CommandName="End" Font-Size="X-Large" ForeColor="#33FF00" RenderMode="Link" Text="ยกเลิก" Theme="Material">     <%--<-------<<<<<<<<<-------->--%>
                                     </dx:ASPxButton>
                                 </DataItemTemplate>
                                 <HeaderStyle BackColor="#3399FF" Font-Bold="False" Font-Size="X-Large" HorizontalAlign="Center" />
