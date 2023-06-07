@@ -94,7 +94,7 @@
         <asp:Panel ID="Panel2" runat="server" Font-Size="X-Large" HorizontalAlign="Center" Height="80px">
             <br />
             <asp:Label ID="Label2" runat="server" Font-Bold="True" Font-Size="XX-Large" Text="แสดงข้อมูล"></asp:Label>
-                
+             <h1>TESSSSSSSSSSSSSSSSSSSSSSSSSST5555555555555555555555</h1>   
         </asp:Panel>
             <asp:UpdatePanel ID="UpdatePanel2" runat="server"  UpdateMode="Conditional">
                 <ContentTemplate>
